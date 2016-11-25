@@ -12,6 +12,8 @@
 		E4FC6F441DDB884F009FC764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FC6F421DDB884F009FC764 /* Main.storyboard */; };
 		E4FC6F461DDB884F009FC764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FC6F451DDB884F009FC764 /* Assets.xcassets */; };
 		E4FC6F491DDB884F009FC764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FC6F471DDB884F009FC764 /* LaunchScreen.storyboard */; };
+		E4FC6F511DDBB125009FC764 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC6F501DDBB125009FC764 /* SettingsVC.swift */; };
+		E4FC6F531DDBBDEF009FC764 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC6F521DDBBDEF009FC764 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E4FC6F451DDB884F009FC764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4FC6F481DDB884F009FC764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4FC6F4A1DDB884F009FC764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FC6F501DDBB125009FC764 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		E4FC6F521DDBBDEF009FC764 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				E4FC6F3E1DDB884E009FC764 /* AppDelegate.swift */,
 				E4FC6F401DDB884E009FC764 /* ViewController.swift */,
+				E4FC6F501DDBB125009FC764 /* SettingsVC.swift */,
+				E4FC6F521DDBBDEF009FC764 /* Settings.swift */,
 				E4FC6F421DDB884F009FC764 /* Main.storyboard */,
 				E4FC6F451DDB884F009FC764 /* Assets.xcassets */,
 				E4FC6F471DDB884F009FC764 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				E4FC6F411DDB884E009FC764 /* ViewController.swift in Sources */,
 				E4FC6F3F1DDB884E009FC764 /* AppDelegate.swift in Sources */,
+				E4FC6F531DDBBDEF009FC764 /* Settings.swift in Sources */,
+				E4FC6F511DDBB125009FC764 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
